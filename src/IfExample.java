@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class IfExample {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		 
+		System.out.println("Enter Marks");
+		int m=sc.nextInt();
+		
+		if(m>=0 && m<=100)
+		   {
+			if (m>=40)
+			   System.out.println("Student is Pass!");
+			else
+				System.out.println("Student is Failed");
+		   }
+		else
+		{
+			System.out.println("Invalied Marks");
+		
+		}
+	}
+
+}
+
